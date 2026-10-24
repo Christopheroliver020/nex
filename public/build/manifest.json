@@ -1,0 +1,107 @@
+{
+  "resources/css/app.css": {
+    "file": "assets/app-CTJ57h0l.css",
+    "src": "resources/css/app.css",
+    "isEntry": true,
+    "name": "app",
+    "names": [
+      "app.css"
+    ]
+  },
+  "resources/css/nex-admin.css": {
+    "file": "assets/nex-admin-BTORcMaq.css",
+    "src": "resources/css/nex-admin.css",
+    "isEntry": true,
+    "name": "nex-admin",
+    "names": [
+      "nex-admin.css"
+    ]
+  },
+  "resources/css/nex-auth.css": {
+    "file": "assets/nex-auth-i3Na7WZt.css",
+    "src": "resources/css/nex-auth.css",
+    "isEntry": true,
+    "name": "nex-auth",
+    "names": [
+      "nex-auth.css"
+    ]
+  },
+  "resources/css/nex-feed.css": {
+    "file": "assets/nex-feed-BsK7axBz.css",
+    "src": "resources/css/nex-feed.css",
+    "isEntry": true,
+    "name": "nex-feed",
+    "names": [
+      "nex-feed.css"
+    ]
+  },
+  "resources/css/nex-home.css": {
+    "file": "assets/nex-home-DDZBE_Li.css",
+    "src": "resources/css/nex-home.css",
+    "isEntry": true,
+    "name": "nex-home",
+    "names": [
+      "nex-home.css"
+    ]
+  },
+  "resources/css/nex-notifications.css": {
+    "file": "assets/nex-notifications-DEgbOY6E.css",
+    "src": "resources/css/nex-notifications.css",
+    "isEntry": true,
+    "name": "nex-notifications",
+    "names": [
+      "nex-notifications.css"
+    ]
+  },
+  "resources/css/nex-profile.css": {
+    "file": "assets/nex-profile-nh5wD9aX.css",
+    "src": "resources/css/nex-profile.css",
+    "isEntry": true,
+    "name": "nex-profile",
+    "names": [
+      "nex-profile.css"
+    ]
+  },
+  "resources/css/nex-suspended.css": {
+    "file": "assets/nex-suspended-RYCMzf1R.css",
+    "src": "resources/css/nex-suspended.css",
+    "isEntry": true,
+    "name": "nex-suspended",
+    "names": [
+      "nex-suspended.css"
+    ]
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-LoDp4evE.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true,
+    "imports": [
+      "resources/js/nex-feed.js"
+    ]
+  },
+  "resources/js/nex-auth.js": {
+    "file": "assets/nex-auth-CiEP5Bvn.js",
+    "name": "nex-auth",
+    "src": "resources/js/nex-auth.js",
+    "isEntry": true
+  },
+  "resources/js/nex-feed.js": {
+    "file": "assets/nex-feed-D2fVaAiL.js",
+    "name": "nex-feed",
+    "src": "resources/js/nex-feed.js",
+    "isEntry": true
+  },
+  "resources/js/nex-home.js": {
+    "file": "assets/nex-home-BipPQGBw.js",
+    "name": "nex-home",
+    "src": "resources/js/nex-home.js",
+    "isEntry": true
+  },
+  "resources/js/nex-profile.js": {
+    "file": "assets/nex-profile-Dwwngnyh.js",
+    "name": "nex-profile",
+    "src": "resources/js/nex-profile.js",
+    "isEntry": true
+  }
+}
