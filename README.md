@@ -59,15 +59,4 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 # Account recovery payments
 
-Temporarily suspended users can pay to restore their account using PayPal or GCash through PayMongo. Configure these values in the local `.env` file (never commit live secrets):
-
-```dotenv
-NEX_RECOVERY_FEE_PHP=100
-PAYPAL_CLIENT_ID=
-PAYPAL_CLIENT_SECRET=
-PAYPAL_SANDBOX=true
-PAYMONGO_SECRET_KEY=
-PAYMONGO_WEBHOOK_SECRET=
-```
-
-The fee is in Philippine pesos. For PayPal, use REST API credentials from the PayPal developer dashboard. For GCash, use a PayMongo secret key with GCash enabled. Register an HTTPS PayMongo webhook for `checkout_session.payment.paid` at `/webhooks/paymongo/account-recovery`, then put that endpoint's signing secret in `PAYMONGO_WEBHOOK_SECRET`. Run `php artisan migrate --force` to create the payment ledger. Payment restores are only applied after server-side provider verification. Permanent suspensions must be appealed to NEX support.
+Temporarily suspended users can pay to restore their account using PayPal or GCash.
